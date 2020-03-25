@@ -3,3 +3,224 @@
 	margin: 0;
 	font-family: 'Titillium Web',sans-serif;
 }
+h2{
+	text-transform: uppercase;
+	font-size: 40px;
+}
+a{
+	text-decoration: none;
+}
+.section_header{
+	max-width: 540px;
+	text-align: center;
+}
+.section_header > h2{
+	margin-top: 120px;
+}
+.section_header > p{
+	font-size: 18px;
+}
+.line{
+	width: 85px;
+	height: 5px;
+	margin: 20px auto;
+}
+
+.portfolio {
+	background-color: #FFDD99FF;
+	width: 100%;
+}
+.bgc{
+	margin: 0 auto;
+	max-width: 1100px;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+}
+.portfolio .Our_pordfolio > h2{
+	color: #393939FF;
+}
+.portfolio .line{
+	background-color: #E0BF7CFF;
+}
+.portfolio .Our_pordfolio > p{
+	color: #393939FF;
+}
+.portfolio .Our_pordfolio > ul{
+	display: inline-flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	list-style-type: none;
+	margin: 40px 0px 50px 0px;
+}
+.portfolio .Our_pordfolio > ul li{
+	margin: 20px 5px ;
+}
+.portfolio .Our_pordfolio > ul li a{
+	text-transform: uppercase;
+	border-radius: 3px;
+	color: #393939;
+	background-color: #DDBD7DFF;
+	padding: 10px 25px;
+}
+.portfolio .Our_pordfolio .active{
+	background-color: #FFFFFFFF;
+}
+.portfolio .laptops{
+	width: 100%;
+	display: flex;
+	flex-flow:  row wrap ;
+	justify-content: space-between;
+}
+.portfolio .laptops .cont {
+	text-align: center;
+	flex-grow: 1;
+	flex-basis: 370px;
+	max-width: 540px;
+	margin: 3px;
+}
+.portfolio .laptops .cont p{
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+.portfolio .laptops .cont img{
+	width: 100%;
+}
+.portfolio .btn{
+	text-transform: uppercase;
+	box-shadow: 0px 3px 1px rgba(20, 165, 140, 1);
+	border-radius: 4px;
+	font-size: 18px;
+	padding: 25px 55px;
+	background-color: #17C2A4FF;
+	margin-bottom: 60px;
+}
+.people-say{
+	color: #FFFFFF;
+	background-color: #D74680FF;
+}
+.people-say .line{
+	background-color: #B73C6DFF;
+}
+.people-say .quotes{
+	margin-top: 70px;
+	width: 100%;
+	display: flex;
+	flex-flow:  row wrap ;
+	justify-content: space-between;
+}
+.people-say .quotes .cont{
+	text-align: center;
+	flex-grow: 1;
+	flex-basis: 370px;
+	display: flex;
+	max-width: 540px;
+	margin: 3px;
+}
+.people-say .quotes .box{
+	margin-bottom: 140px ;
+	padding-left: 45px;
+	padding-right: 60px;
+	width: calc(100% - 100px);
+	text-align: left;
+}
+.people-say .quotes .cont .img {
+	margin-left: 10px;
+	width: 100px;
+	height: 100px;
+	border-radius:50%;
+	background-image: url('../img/icon.jpg');
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-position: center;
+}
+.people-say .quotes .box p:nth-child(1){
+	font-style: italic;
+}
+.people-say .quotes .box p:nth-last-child(1){
+	color: #FFDD99FF;
+}
+.people-say .quotes .box h3{
+	margin-top: 30px;
+	margin-bottom: 5px;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+.touch{
+	color: #ffffff;
+	background-color: #3C5499FF;
+}
+.touch .GET_IN_TOUCH{
+	max-width: 750px;
+}
+.touch form{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.touch form  input,textarea{
+	font-size:18px; 
+	border: none;
+	border-radius:5px;
+	padding: 20px 25px;
+	background-color: #273A71FF;
+}
+.touch form div  {
+	max-width:870px;
+	flex-grow: 1;
+	
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.touch form  input[type="text"],input[type="email"]{
+	max-width: 370px;
+	width: 100%;
+	flex-grow: 1;
+	margin:30px 5px 0 5px;
+}
+.touch form  input[type="submit"]{
+	box-shadow: 0px 3px 1px rgba(20, 165, 140, 1);
+	background-color: #17C2A4FF;
+	border-radius: 4px;
+	margin-bottom: 60px;
+	text-transform: uppercase;
+	
+
+	width: 290px;
+	height: 70px;
+}
+.touch form textarea{
+	max-width: 810px;
+	margin: 30px 5px 60px 5px;
+	width: 100%;
+	height: 200px;
+	resize: none;
+}
+@media (max-width: 875px){
+	.touch form  input[type="text"],input[type="email"]{
+	max-width: 100%;
+	}
+}
+
+@media (max-width: 766px){
+	.portfolio .laptops{
+		justify-content: center;
+		margin: 0 20px;
+	}
+	.people-say .quotes{
+		justify-content: center;
+		margin: 0 20px;
+	}
+	.people-say .quotes .cont{
+		flex-flow: wrap;
+		justify-content: center;
+	}
+	.people-say .quotes .box{
+		margin-top: 10px;
+		text-align: center;
+	}
+}
