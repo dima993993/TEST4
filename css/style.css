@@ -46,7 +46,7 @@ nav li a {
 	color: #fff;
 }
 nav {
-	display: inline-block;
+	display: flex;
 	position: absolute;
 	right: 42px;
 	top: 60px;
@@ -76,6 +76,38 @@ header button:active {
 	transform: translateY(4px);
 }
 
+@media (max-width: 960px) {
+	header .headerSection {
+		width: 700px;
+	}
+	nav li a {
+		font-size: 14px;
+	}
+	nav ul li {
+		margin: 0;
+	}
+	h1 {
+		left: 0px;
+	}
+}
+@media (max-width: 700px) {
+	h1 {
+		font-size: 50px;
+		left: 30px;
+		top: 0px;
+	}
+	nav {
+		top: 100px;
+		right: 20px;
+	}
+	
+	header .headerSection {
+		width: 480px;
+	}
+}
+
+>>>>>>> topSection
+
 /****SECTION SERVICES****/
 
 .services h2{
@@ -83,8 +115,17 @@ header button:active {
 	text-transform: uppercase;
 	font-size: 40px;
 }
+<<<<<<< HEAD
 .services>p {
 	font-size: 18px;
+}
+.services-wrapper {
+	width: 1140px;
+	margin: 0 auto;
+}
+.services-wrapper>p {
+	margin-top: 30px;
+>>>>>>> topSection
 }
 .services {
 	height: 750px;
@@ -92,6 +133,7 @@ header button:active {
 	color: #fff;
 	text-align: center;
 }
+<<<<<<< HEAD
 .services>div {
 	margin-top: 60px;
 }
@@ -110,3 +152,46 @@ header button:active {
 	padding-top: 30px;
 	line-height:  25px;
 }
+
+.services-wrapper>div>div {
+	width: 220px;
+	margin-left: 50px;
+	margin-top: 80px;
+}
+.services-wrapper>div>div p {
+	font-size: 14px;
+	margin-top: 25px;
+	line-height: 22px;
+}
+.services-wrapper>div>div h3 {
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+
+@media (max-width: 960px) {
+	.services-wrapper>div>div img {
+		width: 60px;
+		height: 80px;
+	}
+	.services-wrapper {
+		width: 700px;
+	}
+	.services-wrapper>div>div p {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.services-wrapper>div>div {
+		margin-top: 40px;
+	}
+}
+@media (max-width: 700px) {
+	.services-wrapper {
+		width:480px;
+	}
+	.services-wrapper>div>div {
+		margin-left: 20px;
+	}
+	.services h2{
+	font-size: 30px;
+}
+
