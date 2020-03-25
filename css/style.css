@@ -46,7 +46,7 @@ nav li a {
 	color: #fff;
 }
 nav {
-	display: inline-block;
+	display: flex;
 	position: absolute;
 	right: 42px;
 	top: 60px;
@@ -75,6 +75,36 @@ header button:active {
 	box-shadow: 0 5px #c86a40;
 	transform: translateY(4px);
 }
+@media (max-width: 960px) {
+	header .headerSection {
+		width: 700px;
+	}
+	nav li a {
+		font-size: 14px;
+	}
+	nav ul li {
+		margin: 0;
+	}
+	h1 {
+		left: 0px;
+	}
+}
+@media (max-width: 700px) {
+	h1 {
+		font-size: 50px;
+		left: 30px;
+		top: 0px;
+	}
+	nav {
+		top: 100px;
+		right: 20px;
+	}
+	
+	header .headerSection {
+		width: 480px;
+	}
+}
+
 
 /****SECTION SERVICES****/
 
@@ -83,8 +113,12 @@ header button:active {
 	text-transform: uppercase;
 	font-size: 40px;
 }
-.services>p {
-	font-size: 18px;
+.services-wrapper {
+	width: 1140px;
+	margin: 0 auto;
+}
+.services-wrapper>p {
+	margin-top: 30px;
 }
 .services {
 	height: 750px;
@@ -92,21 +126,49 @@ header button:active {
 	color: #fff;
 	text-align: center;
 }
-.services>div {
-	margin-top: 60px;
+.services-wrapper>div {
+	display: flex;
+	flex-wrap: wrap;
 }
-.services>div>div {
-	width: 260px;
-	display: inline-block;
-	margin-left: 20px;
-	margin-right: 20px;
-	vertical-align: top;
+.services-wrapper>div>div {
+	width: 220px;
+	margin-left: 50px;
+	margin-top: 80px;
 }
-.services h3 {
+.services-wrapper>div>div p {
+	font-size: 14px;
+	margin-top: 25px;
+	line-height: 22px;
+}
+.services-wrapper>div>div h3 {
+	margin-top: 40px;
 	text-transform: uppercase;
-	padding-top: 40px;
 }
-.services p {
-	padding-top: 30px;
-	line-height:  25px;
+
+@media (max-width: 960px) {
+	.services-wrapper>div>div img {
+		width: 60px;
+		height: 80px;
+	}
+	.services-wrapper {
+		width: 700px;
+	}
+	.services-wrapper>div>div p {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.services-wrapper>div>div {
+		margin-top: 40px;
+	}
+}
+@media (max-width: 700px) {
+	.services-wrapper {
+		width:480px;
+	}
+	.services-wrapper>div>div {
+		margin-left: 20px;
+	}
+	.services h2{
+	font-size: 30px;
+}
 }
