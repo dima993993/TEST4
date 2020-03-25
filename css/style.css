@@ -200,12 +200,31 @@ a{
 	height: 200px;
 	resize: none;
 }
+footer{
+	background-color: #344B8EFF;
+	display: flex;
+	justify-content: center;
+}
+footer ul{
+	display: inline-flex;
+	list-style-type: none;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+footer ul a{
+	color: #ffffff;
+	line-height: 110px;
+	font-size: 24px;
+	margin: 0 25px;
+}
+footer ul li .color{
+	color: #30BAE7FF;
+}
 @media (max-width: 875px){
 	.touch form  input[type="text"],input[type="email"]{
-	max-width: 100%;
+		max-width: 100%;
 	}
 }
-
 @media (max-width: 766px){
 	.portfolio .laptops{
 		justify-content: center;
