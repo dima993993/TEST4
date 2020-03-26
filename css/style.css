@@ -220,8 +220,7 @@ header button:active {
 	line-height: 40px;
 }
 
-<<<<<<< HEAD
-=======
+
 .team .wrapper-team .blok>div {
 	display: flex;
 	flex-wrap: wrap;
@@ -236,4 +235,4 @@ header button:active {
 		width: 480px;
 	}
 }
->>>>>>> team
+
