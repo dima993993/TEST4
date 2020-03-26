@@ -115,17 +115,12 @@ header button:active {
 	text-transform: uppercase;
 	font-size: 40px;
 }
-
-.services>p {
-	font-size: 18px;
-}
 .services-wrapper {
 	width: 1140px;
 	margin: 0 auto;
 }
 .services-wrapper>p {
 	margin-top: 30px;
-
 }
 .services {
 	height: 750px;
@@ -133,26 +128,10 @@ header button:active {
 	color: #fff;
 	text-align: center;
 }
-
-.services>div {
-	margin-top: 60px;
+.services-wrapper>div {
+	display: flex;
+	flex-wrap: wrap;
 }
-.services>div>div {
-	width: 260px;
-	display: inline-block;
-	margin-left: 20px;
-	margin-right: 20px;
-	vertical-align: top;
-}
-.services h3 {
-	text-transform: uppercase;
-	padding-top: 40px;
-}
-.services p {
-	padding-top: 30px;
-	line-height:  25px;
-}
-
 .services-wrapper>div>div {
 	width: 220px;
 	margin-left: 50px;
