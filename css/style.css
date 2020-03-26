@@ -170,5 +170,65 @@ header button:active {
 	}
 	.services h2{
 	font-size: 30px;
+	}
 }
+
+	/***team***/
+
+.team {
+	background-color: #e7f1f8;
+	color: #3c4761;
+	text-align: center;
+}
+.team .wrapper-team{
+	width: 1140px;
+	margin: 0 auto;
+}
+.team .wrapper-team .photo img {
+	width: 200px;
+	height: 200px;
+}
+.team .wrapper-team>div {
+	display: flex;
+	margin-top: 80px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.team .wrapper-team>div>div {
+	width: 200px;
+}
+.team h2{
+	padding-top: 115px;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+.team .wrapper-team>p {
+	font-size: 18px;
+}
+.team h3 {
+	text-transform: uppercase;
+	padding-top: 40px;
+}
+.team p {
+	padding-top: 20px;
+	line-height:  25px;
+}
+.team a {
+	color: #55c2e9;
+	line-height: 40px;
+}
+
+.team .wrapper-team .blok>div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 30px 0 125px 0;
+}
+.team .wrapper-team .blok>div>div {
+	margin: 0 6px 0 6px;
+}
+@media (max-width: 960px){
+	.team .wrapper-team {
+		width: 480px;
+	}
 }
