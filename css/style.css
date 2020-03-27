@@ -234,3 +234,167 @@ header button:active {
 	}
 }
 
+	/***Skills***/
+.skills .wrapper-skills {
+	width: 1140px;
+	margin: 0 auto;
+}
+.skills {
+	height: 650px;
+	color: #3c4761;
+	text-align: center;
+}
+.skills h2 {
+	padding-top: 115px;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+.skills .wrapper-skills>p {
+	font-size: 18px;
+	margin-top: 30px;
+}
+.diagrams {
+	margin-top: 80px;
+	margin-bottom: 115px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.diagrams>div {
+	display: inline-block;
+}
+.diagrams h3 {
+	text-transform: uppercase;
+	padding-top: 30px;
+}
+.diagramOne {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+	position: relative;
+	background-color: #30bae7;
+	font-size: 44px;
+	line-height: 160px;
+}
+.sector {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    transform-origin: right bottom;
+    background: #dfe8ed;
+    transform: skew(60deg);
+}
+.diagramOne:after {
+	content: '90%';
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	background-color: #fff;
+	border-radius: 50%;
+	top: 20px;
+	left: 20px;
+}
+
+.diagramTwo {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+	position: relative;
+	background-color: #d74680;
+	font-size: 44px;
+	line-height: 160px;
+}
+.sectorTwo {
+	width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    transform-origin: right bottom;
+    background: #dfe8ed;
+    transform: skew(5deg);
+}
+.diagramTwo:after {
+	content: '75%';
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	background-color: #fff;
+	border-radius: 50%;
+	top: 20px;
+	left: 20px;
+}
+.diagramThree {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+	position: relative;
+	background-color: #15c7a8;
+	font-size: 44px;
+	line-height: 160px;
+}
+.sectorThree {
+	width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    transform-origin: right bottom;
+    background: #dfe8ed;
+    transform: skew(-5deg);
+}
+.diagramThree:after {
+	content: '70%';
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	background-color: #fff;
+	border-radius: 50%;
+	top: 20px;
+	left: 20px;
+}
+.diagramFour {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+	position: relative;
+	background-color: #eb7d4b;
+	font-size: 44px;
+	line-height: 160px;
+}
+.sectorFour {
+	width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    transform-origin: right bottom;
+    background: #dfe8ed;
+    transform: skew(30deg);
+}
+.diagramFour:after {
+	content: '85%';
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	background-color: #fff;
+	border-radius: 50%;
+	top: 20px;
+	left: 20px;
+}
+@media (max-width: 960px){
+	.skills .wrapper-skills {
+		width: 480px;
+	}
+	.diagramThree, .diagramFour {
+		margin-top: 40px;
+	}
+}
+
+
